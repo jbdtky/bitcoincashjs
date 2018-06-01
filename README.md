@@ -1,5 +1,5 @@
 # It is a fork fixing a dependency containing a bug.
-Original repository : [bitcoincashjs/bitcoincashjs](https://github.com/bitcoincashjs/bitcoincashjs)
+Original repository : [jbdtky/bitcoincashjs](https://github.com/jbdtky/bitcoincashjs)
 
 # [BitcoinCash.js](https://github.com/jbdtky/bitcoincashjs): The simple, safe, and powerful JavaScript library for Bitcoin Cash
 

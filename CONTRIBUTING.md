@@ -239,7 +239,7 @@ git checkout -b remove/some-file
 
 We expect pull requests to be rebased to the master branch before merging:
 ```sh
-git remote add bitcoincashjs git@github.com:bitcoincashjs/bitcoincashjs.git
+git remote add bitcoincashjs git@github.com:jbdtky/bitcoincashjs.git
 git pull --rebase bitcoincashjs master
 ```
 
@@ -251,11 +251,11 @@ git push origin your_branch_name
 git push origin feature/some-new-stuff
 git push origin fix/some-bug
 ```
-Finally go to [github.com/bitcoincashjs/bitcoincashjs](https://github.com/bitcoincashjs/bitcoincashjs) in your web browser and issue a new pull request.
+Finally go to [github.com/jbdtky/bitcoincashjs](https://github.com/jbdtky/bitcoincashjs) in your web browser and issue a new pull request.
 
 Main contributors will review your code and possibly ask for changes before your code is pulled in to the main repository.  We'll check that all tests pass, review the coding style, and check for general code correctness. If everything is OK, we'll merge your pull request and your code will be part of bitcoincashjs.
 
 If you have any questions feel free to post them to
-[github.com/bitcoincashjs/bitcoincashjs/issues](https://github.com/bitcoincashjs/bitcoincashjs/issues).
+[github.com/jbdtky/bitcoincashjs/issues](https://github.com/jbdtky/bitcoincashjs/issues).
 
 Thanks for your time and code!

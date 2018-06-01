@@ -2,7 +2,7 @@
 
 var _ = require('lodash');
 var $ = require('./util/preconditions');
-var cashaddr = require('cashaddrjs');
+var cashaddr = require('cashaddrjs-fork');
 var errors = require('./errors');
 var Base58Check = require('./encoding/base58check');
 var Networks = require('./networks');

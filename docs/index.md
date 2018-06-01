@@ -1,4 +1,4 @@
-# BitcoinCash.js v0.1
+# bitcoincash-fork v1.0.2
 
 
 ## Bitcoin Cash
@@ -30,9 +30,6 @@ To get started, just `npm install --save bitcoincashjs` or `bower install bitcoi
 ## Extra
 * [Crypto](crypto.md)
 * [Encoding](encoding.md)
-
-## Module Development
-* [Browser Builds](browser.md)
 
 ## Modules
 
