@@ -1,4 +1,4 @@
-# bitcoincash-fork v1.0.2
+# bitcoincash-fork v1.0.3
 
 
 ## Bitcoin Cash
