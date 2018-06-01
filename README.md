@@ -25,10 +25,6 @@ BitcoinCash.js is a fork from [bitcore-lib](https://github.com/bitpay/bitcore-li
 $ npm install --save bitcoincashjs-fork
 ```
 
-### Manually
-
-You may also download the distribution file manually and place it within your third-party scripts directory: [dist/bitcoincashjs.0.1.10.min.js](https://cdn.rawgit.com/jbdtky/bitcoincashjs/master/dist/bitcoincashjs.0.1.10.min.js).
-
 ## Examples
 
 You can find many useful, up-to-date examples to get you started right away on the [BitcoinCash.js](https://bitcoincashjs.github.io/#Examples) website or by following the next links:
