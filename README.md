@@ -1,10 +1,11 @@
-# [BitcoinCash.js](https://bitcoincashjs.github.io/): The simple, safe, and powerful JavaScript library for Bitcoin Cash
+# It is a fork fixing a dependency containing a bug.
+Original repository : [bitcoincashjs/bitcoincashjs](https://github.com/bitcoincashjs/bitcoincashjs)
 
-[![NPM Package](https://img.shields.io/npm/v/bitcoincashjs.svg?style=flat-square)](https://www.npmjs.org/package/bitcoincashjs)
-[![Build Status](https://img.shields.io/travis/bitcoincashjs/bitcoincashjs.svg?branch=master&style=flat-square)](https://travis-ci.org/bitcoincashjs/bitcoincashjs)
-[![Coverage Status](https://img.shields.io/coveralls/bitcoincashjs/bitcoincashjs.svg?style=flat-square)](https://coveralls.io/r/bitcoincashjs/bitcoincashjs)
+# [BitcoinCash.js](https://github.com/jbdtky/bitcoincashjs): The simple, safe, and powerful JavaScript library for Bitcoin Cash
 
-[![NPM Stats](https://nodei.co/npm/bitcoincashjs.png?downloads=true)](https://nodei.co/npm/bitcoincashjs/)
+[![NPM Package](https://img.shields.io/npm/v/bitcoincashjs-fork.svg?style=flat-square)](https://www.npmjs.org/package/bitcoincashjs-fork)
+
+[![NPM Stats](https://nodei.co/npm/bitcoincashjs-fork.png?downloads=true)](https://nodei.co/npm/bitcoincashjs-fork/)
 
 ## About Bitcoin Cash
 
@@ -21,49 +22,43 @@ BitcoinCash.js is a fork from [bitcore-lib](https://github.com/bitpay/bitcore-li
 ### Using NPM
 
 ```s
-$ npm install --save bitcoincashjs
-```
-
-### Using Bower
-
-```s
-$ bower install --save bitcoincashjs
+$ npm install --save bitcoincashjs-fork
 ```
 
 ### Manually
 
-You may also download the distribution file manually and place it within your third-party scripts directory: [dist/bitcoincashjs.0.1.10.min.js](https://cdn.rawgit.com/bitcoincashjs/bitcoincashjs/master/dist/bitcoincashjs.0.1.10.min.js).
+You may also download the distribution file manually and place it within your third-party scripts directory: [dist/bitcoincashjs.0.1.10.min.js](https://cdn.rawgit.com/jbdtky/bitcoincashjs/master/dist/bitcoincashjs.0.1.10.min.js).
 
 ## Examples
 
 You can find many useful, up-to-date examples to get you started right away on the [BitcoinCash.js](https://bitcoincashjs.github.io/#Examples) website or by following the next links:
 
-* [Generate a random address](https://github.com/bitcoincashjs/bitcoincashjs/blob/master/docs/examples.md#generate-a-random-address)
-* [Generate a address from a SHA256 hash](https://github.com/bitcoincashjs/bitcoincashjs/blob/master/docs/examples.md#generate-a-address-from-a-sha256-hash)
-* [Translate an address to any Bitcoin Cash address format](https://github.com/bitcoincashjs/bitcoincashjs/blob/master/docs/examples.md#translate-an-address-to-any-bitcoin-cash-address-format)
-* [Read an address from any Bitcoin Cash address format](https://github.com/bitcoincashjs/bitcoincashjs/blob/master/docs/examples.md#read-an-address-from-any-bitcoin-cash-address-format)
-* [Import an address via WIF](https://github.com/bitcoincashjs/bitcoincashjs/blob/master/docs/examples.md#import-an-address-via-wif)
-* [Create a Transaction](https://github.com/bitcoincashjs/bitcoincashjs/blob/master/docs/examples.md#create-a-transaction)
-* [Verify a Bitcoin message](https://github.com/bitcoincashjs/bitcoincashjs/blob/master/docs/examples.md#verify-a-bitcoin-message)
-* [Sign a Bitcoin message](https://github.com/bitcoincashjs/bitcoincashjs/blob/master/docs/examples.md#sign-a-bitcoin-message)
-* [Create an OP RETURN transaction](https://github.com/bitcoincashjs/bitcoincashjs/blob/master/docs/examples.md#create-an-op-return-transaction)
-* [Create a 2-of-3 multisig P2SH address](https://github.com/bitcoincashjs/bitcoincashjs/blob/master/docs/examples.md#create-a-2-of-3-multisig-p2sh-address)
-* [Spend from a 2-of-2 multisig P2SH address](https://github.com/bitcoincashjs/bitcoincashjs/blob/master/docs/examples.md#spend-from-a-2-of-2-multisig-p2sh-address)
+* [Generate a random address](https://github.com/jbdtky/bitcoincashjs/blob/master/docs/examples.md#generate-a-random-address)
+* [Generate a address from a SHA256 hash](https://github.com/jbdtky/bitcoincashjs/blob/master/docs/examples.md#generate-a-address-from-a-sha256-hash)
+* [Translate an address to any Bitcoin Cash address format](https://github.com/jbdtky/bitcoincashjs/blob/master/docs/examples.md#translate-an-address-to-any-bitcoin-cash-address-format)
+* [Read an address from any Bitcoin Cash address format](https://github.com/jbdtky/bitcoincashjs/blob/master/docs/examples.md#read-an-address-from-any-bitcoin-cash-address-format)
+* [Import an address via WIF](https://github.com/jbdtky/bitcoincashjs/blob/master/docs/examples.md#import-an-address-via-wif)
+* [Create a Transaction](https://github.com/jbdtky/bitcoincashjs/blob/master/docs/examples.md#create-a-transaction)
+* [Verify a Bitcoin message](https://github.com/jbdtky/bitcoincashjs/blob/master/docs/examples.md#verify-a-bitcoin-message)
+* [Sign a Bitcoin message](https://github.com/jbdtky/bitcoincashjs/blob/master/docs/examples.md#sign-a-bitcoin-message)
+* [Create an OP RETURN transaction](https://github.com/jbdtky/bitcoincashjs/blob/master/docs/examples.md#create-an-op-return-transaction)
+* [Create a 2-of-3 multisig P2SH address](https://github.com/jbdtky/bitcoincashjs/blob/master/docs/examples.md#create-a-2-of-3-multisig-p2sh-address)
+* [Spend from a 2-of-2 multisig P2SH address](https://github.com/jbdtky/bitcoincashjs/blob/master/docs/examples.md#spend-from-a-2-of-2-multisig-p2sh-address)
 
 ## Security
 
-BitcoinCash.js is a fork from [bitcore-lib](https://github.com/bitpay/bitcore-lib/), which is used in production at Bitpay Inc., and many other [projects](http://bitcore.io#projects). If you find a security issue, please email [bitcoincashjs@tuta.io](mailto:bitcoincashjs@tuta.io).
+BitcoinCash.js is a fork from [bitcore-lib](https://github.com/bitpay/bitcore-lib/), which is used in production at Bitpay Inc., and many other [projects](http://bitcore.io#projects). If you find a security issue, please email [jb@bitcoin.com](mailto:jb@bitcoin.com).
 
 ## Contributing
 
-This is an open-source project, and any form of contribution is welcome. Feel free to create an issue in case you would like to share ideas for improvement, or would like to report a bug. Also, please send pull requests for bug fixes or code optimization. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/bitcoincashjs/bitcoincashjs/blob/master/CONTRIBUTING.md) file.
+This is an open-source project, and any form of contribution is welcome. Feel free to create an issue in case you would like to share ideas for improvement, or would like to report a bug. Also, please send pull requests for bug fixes or code optimization. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/jbdtky/bitcoincashjs/blob/master/CONTRIBUTING.md) file.
 
 ## Development
 
 To get started with development, you should first clone the repository and install any dependencies:
 
 ```s
-$ git clone https://github.com/bitcoincashjs/bitcoincashjs
+$ git clone https://github.com/jbdtky/bitcoincashjs
 $ cd bitcoincashjs
 $ npm install
 ```
@@ -75,4 +70,4 @@ $ npm test
 
 ## License
 
-Code released under [the MIT license](https://github.com/bitcoincashjs/bitcoincashjs/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/jbdtky/bitcoincashjs/blob/master/LICENSE).
